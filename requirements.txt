@@ -1,14 +1,7 @@
-requirements = """fastapi==0.111.0
+fastapi==0.111.0
 uvicorn==0.29.0
 xgboost==2.0.3
 scikit-learn==1.4.2
 pandas==2.2.2
 joblib==1.4.2
 numpy==1.26.4
-"""
-
-with open('requirements.txt', 'w') as f:
-    f.write(requirements)
-
-from google.colab import files
-files.download('requirements.txt')
