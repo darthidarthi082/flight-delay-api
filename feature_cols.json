@@ -1,0 +1,1 @@
+["dep_hour", "dep_weekday", "dep_month", "dep_quarter", "is_weekend", "is_rush_hour", "Distance", "distance_bucket_enc", "route_delay_rate", "is_busy_airport", "Reporting_Airline_enc", "carrier_delay_rate", "prior_leg_delay", "Origin_enc", "Dest_enc", "TaxiOut", "DistanceGroup"]
