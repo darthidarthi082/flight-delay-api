@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import joblib, json
 import pandas as pd
-
 app = FastAPI(title="Flight Delay Predictor", version="1.0")
 
 model          = joblib.load("flight_delay_model.pkl")
